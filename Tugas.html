@@ -1,0 +1,70 @@
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  
+    <meta charset="UTF-8">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Pinjol ilegal</title>
+  </head>
+<body>
+  <div class="pinjol">  
+
+    <form action="action.php" method="get">
+
+      <fieldset>
+
+        <legend> PENDAFTARAN PINJOL </legend>
+        <br>
+        <label>Nama: </label>
+        <input type="text" name="nama" class="masukan">
+        <br>
+        <label>Alamat: </label>
+        <input type="text" name="alamat" class="masukan">
+        <br>
+        <label>Contact: </label>
+        <input type="text" name="contact" class="masukan">
+        <br>
+        <label for="Tingkat Pendidikan">Education: </label>
+        <input list="Pilih edukasi" name="edukasi" class="masukan">
+        <datalist id="Pilih edukasi">
+          <option value="SD"></option>
+          <option value="SMP"></option>
+          <option value="SMA"></option>
+          <option value="Mahasiswa S1"></option>
+          <option value="Lulusan S1"></option>
+          <option value="Mahasiswa S2"></option>
+          <option value="Lulusan S2"></option>
+          <option value="S3"></option>
+        </datalist> 
+        <br>
+        <p>Payment:
+        <input type="radio" id="cash">
+        <label for="cash">Cash</label>
+        <input type="radio" id="debit">
+        <label for="cash">Debit</label>
+        </p>
+        <p>Payment Range:
+          <input type="radio" id="1 Month">
+          <label for="1 Month">1 Month</label>
+          <input type="radio" id="3 Month">
+          <label for="3 Month">3 Month</label>
+          <br>
+          <input type="radio" id="6 Month">
+          <label for="6 Month">6 Month</label>
+          <input type="radio" id="12 Month">
+          <label for="12 Month">12 Month</label>
+          </p>
+     </fieldset>
+      <input type="submit">
+    </form>
+
+  </div>
+
+</body>
+
+</html>

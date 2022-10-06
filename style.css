@@ -1,0 +1,23 @@
+.pinjol{
+    margin: 300px auto;
+    width: 400px;
+    padding: 15px;
+    border: 2px solid;
+    background-color: rgb(0, 100, 128);
+    border-radius: 5%;
+}
+  
+ body{
+    background-color: #f7fafa4d;
+}
+
+form{
+    font-size: large;
+   
+}
+  
+.masukan{
+    max-width: 150px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
